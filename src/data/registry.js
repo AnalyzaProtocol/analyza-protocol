@@ -14,7 +14,7 @@ const PRODUCTION = {
   llamaChain: record('llamaChain', 'DefiLlama chain key', 'stated', { value: 'Robinhood Chain' }),
   dexChain: record('dexChain', 'DexScreener chain slug', 'stated', { value: 'robinhood' }),
   phase: record('phase', 'Build phase', 'stated', { value: 'in build' }),
-  ca: { id: 'ca', label: 'Contract address', state: 'absent', value: null },
+  ca: { id: 'ca', label: 'Contract address', state: 'stated', value: '0x0000000071727De22E5E9d8BAf0edAc6f37da032', },
   x: record('x', 'X profile', 'absent'),
   github: record('github', 'GitHub repository', 'absent'),
   launch: record('launch', 'Launch date', 'absent'),
