@@ -1,0 +1,178 @@
+{
+  "files": [
+    {
+      "file": "brand/LOGO ANALYZA JPG.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "brand/LOGO ANALYZA PNG...png",
+      "kind": "png",
+      "ihdr": {
+        "w": 2000,
+        "h": 2000,
+        "depth": 8,
+        "colortype": 6
+      }
+    },
+    {
+      "file": "brand/LOGO ANALYZA PNG.png",
+      "kind": "png",
+      "ihdr": {
+        "w": 2000,
+        "h": 2000,
+        "depth": 8,
+        "colortype": 6
+      }
+    },
+    {
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "reference/ANALYZA 2.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "reference/ANALYZA 3.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "reference/ANALYZA 4.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "reference/ANALYZA 6.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    },
+    {
+      "file": "reference/SAMPUL ANALYZA JPG.jpg.jpeg",
+      "kind": "jpeg",
+      "ihdr": null
+    }
+  ],
+  "logoAlphaHistogram": {
+    "zero": 3778115,
+    "low": 6827,
+    "mid": 7638,
+    "high": 9200,
+    "full": 198220,
+    "zeroBlack": 3778115
+  },
+  "premultipliedResize": true,
+  "tokens": [
+    {
+      "name": "c-logo",
+      "file": "brand/LOGO ANALYZA PNG...png",
+      "x": 1046,
+      "y": 522,
+      "hex": "#79cefd",
+      "n": 138648,
+      "k": 3
+    },
+    {
+      "name": "c-trace",
+      "file": "brand/LOGO ANALYZA PNG...png",
+      "x": 1105,
+      "y": 740,
+      "hex": "#466a93",
+      "n": 32373,
+      "k": 3
+    },
+    {
+      "name": "c-bg",
+      "file": "brand/LOGO ANALYZA PNG.png",
+      "x": 0,
+      "y": 0,
+      "hex": "#041223",
+      "n": 4000000,
+      "k": 0
+    },
+    {
+      "name": "c-void",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 1135,
+      "y": 220,
+      "hex": "#010d1b",
+      "n": 54165,
+      "k": 10
+    },
+    {
+      "name": "c-line",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 1218,
+      "y": 574,
+      "hex": "#042f51",
+      "n": 10452,
+      "k": 10
+    },
+    {
+      "name": "c-deep",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 1384,
+      "y": 288,
+      "hex": "#165d93",
+      "n": 7876,
+      "k": 10
+    },
+    {
+      "name": "c-teal",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 95,
+      "y": 823,
+      "hex": "#3290b2",
+      "n": 3735,
+      "k": 10
+    },
+    {
+      "name": "c-blue",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 1201,
+      "y": 250,
+      "hex": "#3f9bee",
+      "n": 4474,
+      "k": 10
+    },
+    {
+      "name": "c-aqua",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 330,
+      "y": 567,
+      "hex": "#25b5cf",
+      "n": 3209,
+      "k": 10
+    },
+    {
+      "name": "c-cyan",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 203,
+      "y": 42,
+      "hex": "#2dd1f7",
+      "n": 11427,
+      "k": 10
+    },
+    {
+      "name": "c-glow",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 1074,
+      "y": 384,
+      "hex": "#57ddf6",
+      "n": 13127,
+      "k": 10
+    },
+    {
+      "name": "c-ice",
+      "file": "reference/ANALYZA 1.jpg.jpeg",
+      "x": 995,
+      "y": 402,
+      "hex": "#91effb",
+      "n": 599,
+      "k": 10
+    }
+  ]
+}

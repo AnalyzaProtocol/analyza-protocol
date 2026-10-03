@@ -1,0 +1,32 @@
+Xray-terminal see the bones of any token
+Holder PnL terminal for Pons V2 tokens on Robinhood Chain. Who is in profit, who is underwater and whether those wallets can trade at all. Read-only.
+LIVE ENGINE terminal holders X github
+holder pnl terminal Robinhood Chain Pons V2 read-only
+SEE THE BONES OF ANY TOKEN.
+who in it is in profit, who is underwater - and whether those wallets can trade at all. six agents rebuild every holder's book and check its record across every other Pons token.
+paste a contract address or a ticker SCAN
+reads public state only no wallet connect nothing signed tokens checked
+tokens checked since wallets in the book addresses with a Pons record launches a day Pons V2 7-day average keys held no accounts no signing
+live visualization one full scan every seconds AGENTS AT WORK
+the film travels station to station. every line in the log is the shape of a real row the terminal produces.
+engine log scanning one scan six stages one verdict HOW IT WORKS
+SCANNER pulls every trade every buy and sell of the token, straight off chain. no wallet connect, no signature.
+trades holders from block blockscout
+LEDGER rebuilds each book what each wallet paid, what it took out, what still sits there at current price.
+in out holds pnl
+TRACER follows the wallets the same addresses across every other Pons token they touched. history, not vibes.
+wallets with past trades
+AUDITOR grades the traders average pnl per trade and winrate, wallet by wallet. says how many wallets each number rests on.
+avg trade winrate SMART
+SORTER bands the holders holders grouped by pnl, five points wide, at most three groups - so you read supply sits at pnl
+supply pnl wallets
+FLAGGER cleans the sample dust, transfers-in, infrastructure and first-ever trades are counted, shown and kept out of the averages.
+dust transfers-in infra first trades
+share card VERDICT rendering card click to enlarge COPY IMAGE DOWNLOAD PNG open in the terminal
+numbers rest on wallets with known cost basis and with past Pons trades. every row links its wallet on Blockscout.
+one skeleton per token the film shows the fracture GRADES
+HEALTHY holders are in profit and they win elsewhere too
+CRACKED flat book, average traders - could go either way
+SHATTERED most holders underwater and they lose everywhere else
+github read-only, holds no keys
+Xray-terminal who is in profit, who is underwater and can they trade at all Robinhood Chain

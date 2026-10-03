@@ -1,0 +1,185 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover" />
+  <title>Analyza | Read the market from its holders</title>
+  <meta name="description" content="Analyza rebuilds the holder base behind any Robinhood Chain token: concentration, returns and wallet history, assembled from public chain data." />
+  <meta name="theme-color" content="#041223" />
+  <link rel="canonical" href="https://analyza.fun/" />
+  <link rel="icon" href="/favicon.ico" sizes="16x16 32x32 48x48" />
+  <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32.png" />
+  <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16.png" />
+  <link rel="apple-touch-icon" href="/apple-touch-icon.png" />
+  <link rel="manifest" href="/site.webmanifest" />
+  <meta property="og:type" content="website" />
+  <meta property="og:site_name" content="Analyza" />
+  <meta property="og:title" content="Analyza | Read the market from its holders" />
+  <meta property="og:description" content="Concentration, returns and wallet history for Robinhood Chain tokens, rebuilt from public chain data." />
+  <meta property="og:url" content="https://analyza.fun/" />
+  <meta property="og:image" content="https://analyza.fun/og.png" />
+  <meta property="og:image:width" content="1200" />
+  <meta property="og:image:height" content="630" />
+  <meta name="twitter:card" content="summary_large_image" />
+  <meta name="twitter:title" content="Analyza | Read the market from its holders" />
+  <meta name="twitter:description" content="Concentration, returns and wallet history for Robinhood Chain tokens, rebuilt from public chain data." />
+  <meta name="twitter:image" content="https://analyza.fun/og.png" />
+  <script>document.documentElement.classList.add('js');</script>
+  <script type="module" crossorigin src="/assets/index-DHLBor7L.js"></script>
+  <link rel="stylesheet" crossorigin href="/assets/style-Cq3sCzBf.css">
+</head>
+<body>
+  <div id="progress" class="progress" aria-hidden="true"><i></i></div>
+
+  <div id="ca" class="ca is-inert" role="region" aria-label="Contract slot">
+    <div class="ca__in wrap">
+      <span class="ca__label">Contract</span>
+      <span class="ca__status">Not announced yet</span>
+    </div>
+  </div>
+
+  <div class="stage">
+    <div class="bg bg--dots" data-depth="0.05" aria-hidden="true"></div>
+    <div class="bg bg--glow" data-depth="0.16" aria-hidden="true"></div>
+
+    <header class="top wrap">
+      <a class="brand" href="#top" aria-label="Analyza, back to top">
+        <span class="brand__mark"><img src="/logo-mark.png" width="40" height="40" alt="" /></span>
+        <span class="brand__word">Analyza</span>
+      </a>
+      <div id="pill" class="pill" data-state="connecting" role="status">
+        <span class="pill__dot" aria-hidden="true"></span>
+        <span class="pill__txt">Connecting</span>
+      </div>
+      <nav class="nav" aria-label="Sections">
+        <a href="#answers">Answers</a>
+        <a href="#method">Method</a>
+        <a href="#pulse">Chain pulse</a>
+      </nav>
+      <div id="socials" class="socials"></div>
+    </header>
+
+    <main id="top">
+      <section class="hero wrap">
+        <div class="hero__copy">
+          <p class="eyebrow" data-reveal>Holder analytics <span aria-hidden="true">/</span> Robinhood Chain <span aria-hidden="true">/</span> id 4663</p>
+          <h1 class="hero__title" aria-label="Read the market from its holders.">
+            <span class="w" style="--i:0" aria-hidden="true"><span>Read</span></span>
+            <span class="w" style="--i:1" aria-hidden="true"><span>the</span></span>
+            <span class="w" style="--i:2" aria-hidden="true"><span>market</span></span>
+            <span class="w" style="--i:3" aria-hidden="true"><span>from</span></span>
+            <span class="w" style="--i:4" aria-hidden="true"><span>its</span></span>
+            <span class="w" style="--i:5" aria-hidden="true"><span>holders.</span></span>
+          </h1>
+          <p class="lede" data-reveal style="--i:2">Every token has a crowd behind it. Analyza rebuilds that crowd from chain history, so a token gets judged by who owns it and how those owners have behaved before.</p>
+          <div class="cta" data-reveal style="--i:3">
+            <a class="btn btn--solid" href="#method">See how a token is read</a>
+            <a class="btn btn--ghost" href="#pulse">Watch the chain</a>
+          </div>
+          <p class="fine" data-reveal style="--i:4">Public chain data only. Your keys never come near it.</p>
+        </div>
+
+        <figure class="art" data-reveal style="--i:1">
+          <div class="art__frame" data-depth="0.1">
+            <div class="art__clip"><img class="art__img" src="/hero-art.webp" width="870" height="720" alt="Isometric pixel magnifier surrounded by floating chart and holder panels" fetchpriority="high" /><span class="art__beam" aria-hidden="true"></span></div>
+            <span class="art__hud art__hud--tl">chain 4663</span>
+            <span class="art__hud art__hud--br">block <b id="hud-block">-</b></span>
+            <i class="corner corner--tl"></i><i class="corner corner--tr"></i><i class="corner corner--bl"></i><i class="corner corner--br"></i>
+          </div>
+        </figure>
+      </section>
+
+      <section class="wrap stats" aria-label="Live chain figures" data-stagger>
+        <article class="stat is-loading" data-stat="block" data-reveal>
+          <h3 class="stat__k">Block height</h3>
+          <p class="stat__v"><span class="sk" aria-hidden="true"></span><span class="stat__num tabular">-</span></p>
+          <p class="stat__s"><span class="sk sk--s" aria-hidden="true"></span></p>
+        </article>
+        <article class="stat is-loading" data-stat="gas" data-reveal>
+          <h3 class="stat__k">Gas price</h3>
+          <p class="stat__v"><span class="sk" aria-hidden="true"></span><span class="stat__num tabular">-</span><small class="stat__u">gwei</small></p>
+          <p class="stat__s"><span class="sk sk--s" aria-hidden="true"></span></p>
+        </article>
+        <article class="stat is-loading" data-stat="tvl" data-reveal>
+          <h3 class="stat__k">Chain TVL</h3>
+          <p class="stat__v"><span class="sk" aria-hidden="true"></span><span class="stat__num tabular">-</span></p>
+          <p class="stat__s"><span class="sk sk--s" aria-hidden="true"></span></p>
+        </article>
+        <article class="stat is-loading" data-stat="vol" data-reveal>
+          <h3 class="stat__k">Pair volume, 24h</h3>
+          <p class="stat__v"><span class="sk" aria-hidden="true"></span><span class="stat__num tabular">-</span></p>
+          <p class="stat__s"><span class="sk sk--s" aria-hidden="true"></span></p>
+        </article>
+      </section>
+
+      <section id="answers" class="band wrap">
+        <header class="head" data-reveal>
+          <p class="eyebrow">Questions answered</p>
+          <h2 class="h2">Four questions every chart skips</h2>
+        </header>
+        <div class="cards" data-stagger id="cards"></div>
+      </section>
+
+      <section id="method" class="band wrap">
+        <header class="head" data-reveal>
+          <p class="eyebrow">Engine blueprint <span aria-hidden="true">/</span> <span id="phase">in build</span></p>
+          <h2 class="h2">Five stages from raw logs to a readable crowd</h2>
+        </header>
+        <div class="method" data-reveal>
+          <div class="rail" id="rail" aria-hidden="true"><i class="rail__line"></i><i class="rail__packet"></i></div>
+          <div class="stages" id="stages" role="tablist" aria-label="Analysis stages" data-stagger></div>
+          <div class="panel" id="stage-panel" role="tabpanel" aria-live="polite"></div>
+        </div>
+      </section>
+
+      <section id="pulse" class="band wrap">
+        <header class="head" data-reveal>
+          <p class="eyebrow">Chain pulse <span aria-hidden="true">/</span> pulled from public endpoints</p>
+          <h2 class="h2">Robinhood Chain, as it stands</h2>
+        </header>
+        <div class="pulse">
+          <article class="card chart" data-reveal>
+            <div class="chart__top">
+              <div>
+                <h3 class="stat__k">Total value locked</h3>
+                <p class="chart__read tabular" id="tvl-readout">-</p>
+              </div>
+              <div class="seg" role="group" aria-label="Chart range">
+                <button type="button" data-range="30" aria-pressed="false">30D</button>
+                <button type="button" data-range="90" aria-pressed="true">90D</button>
+                <button type="button" data-range="all" aria-pressed="false">All</button>
+              </div>
+            </div>
+            <div class="chart__host is-loading" id="tvl-chart"><span class="sk sk--chart" aria-hidden="true"></span></div>
+          </article>
+
+          <article class="card board" data-reveal style="--i:1">
+            <div class="chart__top">
+              <h3 class="stat__k">Busiest pairs</h3>
+              <span class="board__age" id="pairs-age">Waiting for data</span>
+            </div>
+            <div class="board__head" aria-hidden="true"><span></span><span>Pair</span><span>Price</span><span>24h vol</span><span>Liquidity</span><span>Flow</span></div>
+            <div class="board__rows is-loading" id="pairs" role="list" aria-busy="true">
+              <div class="pair pair--sk" aria-hidden="true"><span class="sk sk--dot"></span><span class="sk sk--s"></span><span class="sk sk--s"></span><span class="sk sk--s"></span></div>
+              <div class="pair pair--sk" aria-hidden="true"><span class="sk sk--dot"></span><span class="sk sk--s"></span><span class="sk sk--s"></span><span class="sk sk--s"></span></div>
+              <div class="pair pair--sk" aria-hidden="true"><span class="sk sk--dot"></span><span class="sk sk--s"></span><span class="sk sk--s"></span><span class="sk sk--s"></span></div>
+              <div class="pair pair--sk" aria-hidden="true"><span class="sk sk--dot"></span><span class="sk sk--s"></span><span class="sk sk--s"></span><span class="sk sk--s"></span></div>
+            </div>
+          </article>
+        </div>
+      </section>
+    </main>
+
+    <footer class="foot wrap" data-reveal>
+      <div class="foot__id">
+        <img src="/logo-mark.png" width="32" height="32" alt="" />
+        <span class="brand__word">Analyza</span>
+      </div>
+      <p class="foot__line">analyza.fun <span aria-hidden="true">/</span> built for Robinhood Chain</p>
+      <p class="foot__line foot__line--dim">The contract and the social links switch on here, and at the top, the moment they are announced.</p>
+    </footer>
+  </div>
+
+  <div id="toast" class="toast" role="status" aria-live="polite"></div>
+</body>
+</html>
